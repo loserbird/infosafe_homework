@@ -4,6 +4,7 @@ package view;
 import service.PlayFire;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.List;
  * @Date: 2017/12/19
  * @Description:
  **/
-public class PlayfireFrame extends JFrame{
+public class PlayfireFrame extends JPanel{
 
     JPanel textPanel,keyPanel,encryptPanel,decryptPanel,matrixPanel,contentPanel;
 
@@ -47,7 +48,7 @@ public class PlayfireFrame extends JFrame{
         keyField.setText("monarchy");
         encryptField = new JTextField(24);
         decryptField = new JTextField(24);
-        matrixArea = new JTextArea(20,20);
+        matrixArea = new JTextArea(5,20);
 
         textPanel.add(textLable);
         textPanel.add(textField);
@@ -62,17 +63,18 @@ public class PlayfireFrame extends JFrame{
         matrixPanel.add(matrixLabel);
         matrixPanel.add(matrixArea);
 
+        contentPanel.setLayout(new GridLayout(5,1));
         contentPanel.add(textPanel);
         contentPanel.add(keyPanel);
         contentPanel.add(encryptPanel);
         contentPanel.add(decryptPanel);
         contentPanel.add(matrixPanel);
         this.add(contentPanel);
-        this.setSize(400,400);
+       /* this.setSize(400,400);
         this.setLocation(300,300);
         this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setVisible(true);
+        this.setVisible(true);*/
 
         encryptButton.addActionListener(new ActionListener() {
             @Override

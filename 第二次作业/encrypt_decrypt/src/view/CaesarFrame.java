@@ -3,6 +3,7 @@ package view;
 import service.Caesar;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -11,7 +12,7 @@ import java.awt.event.ActionListener;
  * @Date: 2017/12/19
  * @Description:
  **/
-public class CaesarFrame extends JFrame{
+public class CaesarFrame extends JPanel{
 
     JPanel textPanel,keyPanel,encryptPanel,decryptPanel,contentPanel;
 
@@ -54,16 +55,18 @@ public class CaesarFrame extends JFrame{
         decryptPanel.add(decryptButton);
         decryptPanel.add(decryptField);
 
+        contentPanel.setLayout(new GridLayout(4,1));
         contentPanel.add(textPanel);
         contentPanel.add(keyPanel);
         contentPanel.add(encryptPanel);
         contentPanel.add(decryptPanel);
+
         this.add(contentPanel);
-        this.setSize(400,400);
+        /*this.setSize(400,400);
         this.setLocation(300,300);
         this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setVisible(true);
+        this.setVisible(true);*/
 
         encryptButton.addActionListener(new ActionListener() {
             @Override

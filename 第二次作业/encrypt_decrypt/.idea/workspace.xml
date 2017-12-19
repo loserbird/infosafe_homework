@@ -18,11 +18,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/Hill.java">
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+            <state relative-caret-position="202">
+              <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2492#2493#0" expanded="true" />
+                <element signature="e#2523#2524#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HillFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/HillFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayfireFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/PlayfireFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,12 +54,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HillFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/view/HillFrame.java">
+      <file leaf-file-name="CaesarFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/CaesarFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="57" column="47" lean-forward="false" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,11 +84,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/service/Caesar.java" />
-        <option value="$PROJECT_DIR$/src/view/CaesarFrame.java" />
         <option value="$PROJECT_DIR$/src/service/PlayFire.java" />
-        <option value="$PROJECT_DIR$/src/view/PlayfireFrame.java" />
         <option value="$PROJECT_DIR$/src/service/Hill.java" />
+        <option value="$PROJECT_DIR$/src/view/CaesarFrame.java" />
+        <option value="$PROJECT_DIR$/src/view/PlayfireFrame.java" />
         <option value="$PROJECT_DIR$/src/view/HillFrame.java" />
+        <option value="$PROJECT_DIR$/src/view/MainFrame.java" />
       </list>
     </option>
   </component>
@@ -154,6 +181,12 @@
               <item name="encrypt_decrypt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="encrypt_decrypt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="encrypt_decrypt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,20 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HillFrame">
-    <configuration name="CaesarFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="view.CaesarFrame" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="encrypt_decrypt" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.MainFrame">
     <configuration name="Hill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="service.Hill" />
       <option name="VM_PARAMETERS" />
@@ -215,6 +235,19 @@
     </configuration>
     <configuration name="HillFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.HillFrame" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="encrypt_decrypt" />
+      <envs />
+    </configuration>
+    <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.MainFrame" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -311,19 +344,19 @@
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CaesarFrame" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PlayfireFrame" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PlayFire" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HillFrame" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Hill" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PlayfireFrame" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PlayFire" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HillFrame" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Hill" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MainFrame" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HillFrame" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Hill" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PlayfireFrame" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PlayFire" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CaesarFrame" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainFrame" />
+        <item index="1" class="java.lang.String" itemvalue="Application.HillFrame" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Hill" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PlayfireFrame" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PlayFire" />
       </list>
     </recent_temporary>
   </component>
@@ -376,18 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/CaesarFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3610#3611#0" expanded="true" />
-            <element signature="e#3643#3644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/PlayFire.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -404,16 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/PlayfireFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/Hill.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -424,11 +435,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/CaesarFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="57" column="47" lean-forward="false" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/PlayfireFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/view/HillFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="300">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2492#2493#0" expanded="true" />
+            <element signature="e#2523#2524#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
