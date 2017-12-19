@@ -7,7 +7,7 @@ package service;
  **/
 public class Caesar {
     //凯撒密码加密
-    public  String encode(String str,int k){
+    public  String encrypt(String str,int k){
         char[] strchararr = str.toUpperCase().toCharArray();
         for(int i=0;i<strchararr.length;i++){
             if(strchararr[i] >= 65 && strchararr[i] <= 90 ){
@@ -21,7 +21,7 @@ public class Caesar {
         return String.valueOf(strchararr);
     }
     //凯撒密码解密
-    public  String decode(String str,int k){
+    public  String decrypt(String str,int k){
         char[] strchararr = str.toCharArray();
         for(int i=0;i<strchararr.length;i++){
             if(strchararr[i] >= 65 && strchararr[i] <= 90 ){
@@ -39,8 +39,8 @@ public class Caesar {
 
     public static void main(String[] args) {
         Caesar service = new Caesar();
-        String caesarStr = service.encode("abc",3);
+        String caesarStr = service.encrypt("abc",3);
         System.out.println(caesarStr);
-        System.out.println(service.decode(caesarStr,3));
+        System.out.println(service.decrypt(caesarStr,3));
     }
 }
