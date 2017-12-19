@@ -82,7 +82,7 @@ public class PlayFire {
             return groups;
         }
         //加密
-        public List<String> encode(String str){
+        public List<String> encrypt(String str){
             List<String> groups = group(str);
             List<String> result = new ArrayList<>();
             for(int i=0;i<groups.size();i++){
@@ -109,8 +109,8 @@ public class PlayFire {
             return result;
         }
 
-        //加密
-        public List<String> decode(List<String> groups){
+        //解密
+        public List<String> decrypt(List<String> groups){
             List<String> result = new ArrayList<>();
             for(int i=0;i<groups.size();i++){
                 char a = groups.get(i).charAt(0);
@@ -136,7 +136,7 @@ public class PlayFire {
             return result;
         }
         //返回该字符在矩阵的行号
-        public int rows(char c){
+        private int rows(char c){
             int index = -1;
             //j需要特殊处理
             if(c == 'J'){
@@ -148,7 +148,7 @@ public class PlayFire {
 
         }
         //返回该字符在矩阵的列号
-        public int cols(char c){
+        private int cols(char c){
             int index = -1;
             //j需要特殊处理
             if(c == 'J'){
@@ -168,9 +168,9 @@ public class PlayFire {
             //List<String> list = service.group("balloon");
             List<String> list = service.group("we are discovered save yourself");
             System.out.println(list);
-            List<String> result = service.encode("we are discovered save yourself");
+            List<String> result = service.encrypt("we are discovered save yourself");
             System.out.println(result);
-            List<String> result2 = service.decode(result);
+            List<String> result2 = service.decrypt(result);
             System.out.println(result2);
         }
 }
